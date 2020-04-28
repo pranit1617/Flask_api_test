@@ -13,7 +13,18 @@ class HelloWorld(Resource):
             return {
                 "Hello":"World"
             }
+
+
+class QOS(Resource):
+    def __init__(self):
+        pass
+    def get(self):
+        return {
+            "QOS": "96.9"
+        }
         
 api.add_resource(HelloWorld,'/')
+api.add_resource(QOS,'/qos')
+
 if __name__ == "__main__":
     app.run(debug=True)
