@@ -66,7 +66,7 @@ class DQ_issues_to_resolve(Resource):
         pass
     def get(self):
         return{
-            "Sensor":"Columns count PRG"
+            "Columns count PRG":
             [{
                 "ES":"100%",
                 "IT":"9%",
@@ -74,7 +74,7 @@ class DQ_issues_to_resolve(Resource):
                 "TOtal":"38%"
             }],
 
-            "Sensor":"Columns count SPO"
+            "Columns count SPO":
             [{
                 "ES":"100%",
                 "IT":"9%",
@@ -82,7 +82,7 @@ class DQ_issues_to_resolve(Resource):
                 "TOtal":"38%"
             }],
 
-            "Sensor":"Null numbers(Age)"
+            "Null numbers(Age)":
             [{
                 "ES":"100%",
                 "IT":"55%",
