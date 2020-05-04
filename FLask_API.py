@@ -109,4 +109,4 @@ api.add_resource(QOShistory, '/QOShistory')
 api.add_resource(DQ_issues_to_resolve, '/DQ_issue_reolve')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0")
